@@ -1,0 +1,81 @@
+/* Định dạng chung cho body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Tiêu đề h1 */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Liên kết "Thêm mới khách hàng" */
+a {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+/* Bảng sản phẩm */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Các ô trong bảng */
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Màu nền cho dòng tiêu đề */
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Màu nền cho các dòng chẵn */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Màu nền khi hover vào dòng */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Định dạng cho cột "Action" */
+td a {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+td a:hover {
+    background-color: #0056b3;
+}
+
+/* Định dạng riêng cho nút "Delete" */
+td a[onclick] {
+    background-color: #dc3545;
+}
+
+td a[onclick]:hover {
+    background-color: #c82333;
+}
